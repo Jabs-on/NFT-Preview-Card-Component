@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{font-family: 'Outfit', sans-serif;}
+
+body{
+    width: 1900px;
+    height: 100vh;
+    max-width: 100%;
+    background-color: #0D192C;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 302px;
+    height: 548px;
+    background-color: #15263F;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-container{
+    width: 302px;
+    height: 302px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.image-container:hover .overlay{
+    visibility: visible;
+}
+.image-container:hover .icon-image{
+    display: block;
+}
+.overlay{
+    width: 302px;
+    height: 302px;
+    position: absolute;
+    top: 0px;
+    background-color: #00FFF8;
+    opacity: 0.5;
+    border-radius: 8px;
+    visibility: hidden;
+}
+.main-image{
+    max-width: 100%;
+}
+.icon{
+    width: 302px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+.icon-image{
+    width: 48px;
+    height: 48px;
+    display: none ;
+}
+
+.heading {
+    height: 28px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 24px 0 0 0;
+}
+.equilibrium:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+.main-text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    margin: 16px 0 0 0;
+}
+.icon-text-container{
+    display: flex;
+    justify-content: space-between;
+    width: 301px;
+    height: 20px;
+    margin: 24px 0 0 0;
+}
+.ethereum{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.time{
+    width: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ethereum-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ethereum-icon img{
+    width: 13px;
+    height: 20px;
+}
+.ethereum-text span{
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 0 6.5px;
+}
+.ethereum-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock-icon{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7.7px 0 0;
+}
+.clock-icon img{
+    max-width: 100%;
+}
+.time-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time-text span{
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.line-container{
+    width: 302px;
+    height: 1px;
+    background-color: #2E405A;
+    margin: 24px 0 0 0;
+}
+.bottom-container{
+    width:302px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 16px 0 0 0;
+}
+.avatar-container{
+    width: 33px;
+    height: 33px;
+}
+.avatar{
+    max-width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.bottom-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 16px;
+}
+.span1{
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.span2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 0 5px;
+}
+.span2:hover {
+    color:#00FFF8;
+    cursor: pointer;
+}
